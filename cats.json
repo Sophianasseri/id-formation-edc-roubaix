@@ -1,0 +1,1172 @@
+{
+    "cats": [
+        {
+            "id": 1,
+            "name": "Calie",
+            "gender": "female",
+            "age": "5 ans",
+            "age-range": "adult",
+            "city": "Lille",
+            "reserved": false,
+            "fair": true,
+            "good-with-cats": true,
+            "good-with-dogs": true,
+            "good-with-children": true,
+            "outdoor": false,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Calie, c’est la douce complice qu’on rêve de câliner.\nAvec ses 5 ans bien assumés, elle allie la sagesse d’une adulte à une vraie tendresse de chat câlin. Calie adore s’installer près de vous pour une sieste au calme, mais elle n’est jamais contre une petite séance de jeu quand l’envie lui prend. Son regard profond trahit une grande sensibilité, et elle se montre toujours curieuse des petites habitudes de la maison.\n\nBref, Calie, c’est un cœur tranquille, un brin malicieux, prêt à partager votre quotidien avec douceur et une affection discrète mais infinie.",
+            "traits": [
+                "Calme",
+                "Affectueuse",
+                "Curieuse",
+                "Sociable"
+            ],
+            "family": [
+                {
+                    "cover-img": "emilie-genin.png",
+                    "firstname": "Emilie",
+                    "lastname": "Génin",
+                    "phone": "07 83 45 62 19",
+                    "email": "emilie.genin@gmail.com",
+                    "description": "Je suis famille d’accueil depuis 2021 et j’ai déjà eu le bonheur d’accompagner une dizaine de chats avant leur adoption. J’ai une préférence pour les chats un peu timides ou ayant besoin de reprendre confiance, car j’aime prendre le temps de les rassurer et de les voir s’épanouir jour après jour. Chez moi, les chats vivent au rythme de la maison, entourés d’affection et de douceur. Mon plus grand bonheur, c’est de les voir partir vers leur famille définitive, le cœur léger"
+                }
+            ],
+            "cover-img": "calie-cover.jpg",
+            "images": [
+                "calie-cover.jpg",
+                "calie-img-1.jpg",
+                "calie-img-2.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Hélios",
+            "gender": "male",
+            "age": "8 ans",
+            "age-range": "senior",
+            "city": "Lille",
+            "reserved": true,
+            "fair": false,
+            "good-with-cats": true,
+            "good-with-dogs": true,
+            "good-with-children": true,
+            "outdoor": true,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Hélios, c’est le sage au grand cœur qu’on attendait.\nÀ 8 ans, ce beau mâle a troqué les folies de la jeunesse pour une élégance tranquille. Amateur de longues siestes au soleil et de câlins choisis, il dégage une douceur rassurante. Pas besoin de courir partout : Hélios préfère partager des moments simples, ronronner doucement et observer le monde avec son regard de vieux sage.\nBref, Hélios, c’est la sérénité incarnée, un compagnon posé qui saura apporter chaleur et tendresse à son futur foyer.",
+            "traits": [
+                "Calme",
+                "Doux",
+                "Affectueux",
+                "Observateur"
+            ],
+            "family": [
+                {
+                    "cover-img": "emilie-genin.png",
+                    "firstname": "Emilie",
+                    "lastname": "Génin",
+                    "phone": "07 83 45 62 19",
+                    "email": "emilie.genin@gmail.com",
+                    "description": "Je suis famille d’accueil depuis 2021 et j’ai déjà eu le bonheur d’accompagner une dizaine de chats avant leur adoption. J’ai une préférence pour les chats un peu timides ou ayant besoin de reprendre confiance, car j’aime prendre le temps de les rassurer et de les voir s’épanouir jour après jour. Chez moi, les chats vivent au rythme de la maison, entourés d’affection et de douceur. Mon plus grand bonheur, c’est de les voir partir vers leur famille définitive, le cœur léger"
+                }
+            ],
+            "cover-img": "helios-cover.jpg",
+            "images": [
+                "helios-cover.jpg",
+                "helios-img-1.jpg",
+                "helios-img-2.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Moka",
+            "gender": "female",
+            "age": "6 mois",
+            "age-range": "kitten",
+            "city": "Mons-en-Barœul",
+            "reserved": false,
+            "fair": true,
+            "good-with-cats": true,
+            "good-with-dogs": false,
+            "good-with-children": true,
+            "outdoor": false,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Moka, c’est l’espiègle petite boule d’énergie qu’on adore suivre du regard.\nÀ 6 mois, elle a déjà tout d’une grande exploratrice : curieuse de chaque recoin, toujours prête à bondir sur un jouet ou à partir en chasse d’une ombre qui passe. Mais une fois sa dose d’aventure prise, Moka se transforme en véritable machine à ronrons, heureuse de se lover tout contre vous.\n\nBref, Moka c’est un concentré de tendresse et de malice, la petite complice idéale pour mettre une bonne dose de vie et de câlins dans votre quotidien.",
+            "traits": [
+                "Joueuse",
+                "Curieuse",
+                "Câline",
+                "Energique"
+            ],
+            "family": [
+                {
+                    "cover-img": "lucie-benoit.png",
+                    "firstname": "Lucie",
+                    "lastname": "Benoit",
+                    "phone": "07 56 91 20 15",
+                    "email": "lucie.benoit@gmail.com",
+                    "description": "Famille d’accueil à Mons-en-Barœul, j’accueille souvent des chatons abandonnés et les aide à trouver leur famille définitive."
+                }
+            ],
+            "cover-img": "moka-cover.jpg",
+            "images": [
+                "moka-cover.jpg",
+                "moka-img-1.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Plume",
+            "gender": "female",
+            "age": "3 mois",
+            "age-range": "kitten",
+            "city": "Mons-en-Barœul",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": false,
+            "good-with-dogs": true,
+            "good-with-children": false,
+            "outdoor": false,
+            "health": "vacciné",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Plume, c’est le petit souffle de douceur et d’espièglerie qu’on ne peut qu’aimer.\nÀ seulement 3 mois, cette petite chatonne est une vraie exploratrice : chaque recoin de la maison devient un terrain d’aventure. Elle adore jouer avec tout ce qui bouge, mais elle n’hésite jamais à venir se blottir contre vous pour une pause câlin.\n\nBref, Plume, c’est un concentré de malice et de tendresse, prête à faire chavirer le cœur de sa future famille.",
+            "traits": [
+                "Espiègle",
+                "Curieuse",
+                "Aventurière"
+            ],
+            "family": [
+                {
+                    "cover-img": "lucie-benoit.png",
+                    "firstname": "Lucie",
+                    "lastname": "Benoit",
+                    "phone": "07 56 91 20 15",
+                    "email": "lucie.benoit@gmail.com",
+                    "description": "Famille d’accueil à Mons-en-Barœul, j’accueille souvent des chatons abandonnés et les aide à trouver leur famille définitive."
+                }
+            ],
+            "cover-img": "plume-cover.jpg",
+            "images": [
+                "plume-cover.jpg",
+                "plume-img-1.jpg",
+                "plume-img-2.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Isis",
+            "gender": "male",
+            "age": "4 mois",
+            "age-range": "kitten",
+            "city": "Mons-en-Barœul",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": false,
+            "good-with-dogs": false,
+            "good-with-children": true,
+            "outdoor": false,
+            "health": "vacciné",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Isis, c’est le petit aventurier plein de malice qui fait fondre tout le monde.\nÀ 4 mois, ce jeune mâle déborde d’énergie et de curiosité : chaque coin de la maison est une invitation à l’exploration et chaque jouet devient une nouvelle conquête. Après ses folles courses et parties de jeu, il sait se transformer en véritable petit pot de colle, ronronnant contre vous avec une tendresse infinie.\n\nBref, Isis, c’est un concentré de dynamisme et de câlins, prêt à mettre de la vie et de l’amour dans sa future famille.",
+            "traits": [
+                "Sociable",
+                "Joueur",
+                "Energique"
+            ],
+            "family": [
+                {
+                    "cover-img": "lucie-benoit.png",
+                    "firstname": "Lucie",
+                    "lastname": "Benoit",
+                    "phone": "07 56 91 20 15",
+                    "email": "lucie.benoit@gmail.com",
+                    "description": "Famille d’accueil à Mons-en-Barœul, j’accueille souvent des chatons abandonnés et les aide à trouver leur famille définitive."
+                }
+            ],
+            "cover-img": "isis-cover.jpg",
+            "images": [
+                "isis-cover.jpg",
+                "isis-img-1.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Nougat",
+            "gender": "male",
+            "age": "4 mois",
+            "age-range": "kitten",
+            "city": "Villeneuve-d'Ascq",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": true,
+            "good-with-dogs": false,
+            "good-with-children": false,
+            "outdoor": false,
+            "health": "vermifugé",
+            "special-needs": false,
+            "experienced-adopter": true,
+            "description": "Nougat, c’est le petit gourmand plein d’énergie et de tendresse.\nÀ 4 mois, ce jeune mâle déborde de curiosité et adore découvrir chaque recoin de la maison. Entre ses folles parties de jeu et ses explorations, il sait aussi se blottir contre vous pour des moments de câlins bien mérités.\n\nBref, Nougat, c’est un concentré de malice et d’affection, prêt à apporter joie et douceur dans sa future famille.",
+            "traits": [
+                "Joueur",
+                "Énergique",
+                "Câlin"
+            ],
+            "family": [
+                {
+                    "cover-img": "claire-morel.png",
+                    "firstname": "Claire",
+                    "lastname": "Morel",
+                    "phone": "07 81 45 09 23",
+                    "email": "claire.morel@gmail.com",
+                    "description": "À Villeneuve-d'Ascq, j’accueille souvent des chatons et j’aime les voir grandir dans un cadre chaleureux."
+                }
+            ],
+            "cover-img": "nougat-cover.jpg",
+            "images": [
+                "nougat-cover.jpg",
+                "nougat-img-1.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Lila",
+            "gender": "female",
+            "age": "11 ans",
+            "age-range": "senior",
+            "city": "Roubaix",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": false,
+            "good-with-dogs": false,
+            "good-with-children": false,
+            "outdoor": true,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": true,
+            "description": "Lila, c’est une chatte indépendante qui sait ce qu’elle veut.\nÀ 11 ans, elle a déjà son caractère bien trempé et préfère choisir elle-même ses moments de proximité. Lila apprécie la tranquillité et un environnement calme, avec des repères sûrs. Elle se montre discrète mais, lorsqu’elle décide de vous faire confiance, elle peut offrir des instants de tendresse sincère.\n\nBref, Lila, c’est une chatte délicate et exigeante, qui saura récompenser la patience et le respect de sa future famille.",
+            "traits": [
+                "Indépendante",
+                "Sélective",
+                "Réservée",
+                "Sensible"
+            ],
+            "family": [
+                {
+                    "cover-img": "paul-renard.png",
+                    "firstname": "Paul",
+                    "lastname": "Renard",
+                    "phone": "07 12 45 33 11",
+                    "email": "paul.renard@gmail.com",
+                    "description": "Famille d’accueil à Roubaix depuis 2022, je m’occupe de chats adultes et apprécie de leur redonner confiance avant leur adoption."
+                }
+            ],
+            "cover-img": "lila-cover.jpg",
+            "images": [
+                "lila-cover.jpg",
+                "lila-img-1.jpg",
+                "lila-img-2.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Balthazar",
+            "gender": "male",
+            "age": "12 ans",
+            "age-range": "senior",
+            "city": "La Madeleine",
+            "reserved": false,
+            "fair": true,
+            "good-with-cats": true,
+            "good-with-dogs": false,
+            "good-with-children": false,
+            "outdoor": false,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": true,
+            "description": "Balthazar, c’est le sage gentleman au grand cœur.\nÀ 12 ans, ce mâle apprécie la tranquillité et les instants de câlins au calme. Il aime observer son environnement depuis son panier préféré ou un rayon de soleil, et se laisse approcher doucement quand il se sent en confiance. Balthazar est un chat posé, affectueux et attachant, idéal pour une famille prête à partager des moments paisibles et pleins de tendresse.",
+            "traits": [
+                "Affectueux",
+                "Posé",
+                "Calme"
+            ],
+              "family": [
+                {
+                    "cover-img": "lucas-gavaskar.png",
+                    "firstname": "Lucas",
+                    "lastname": "Gavaskar",
+                    "phone": "06 92 34 17 09",
+                    "email": "lucas.gavaskar@gmail.com",
+                    "description": "Famille d’accueil à Lomme depuis 2023, j’accueille principalement des jeunes adultes et je veille à leur bien-être avant leur adoption."
+                }
+            ],
+            "cover-img": "balthazar-cover.jpg",
+            "images": [
+                "balthazar-cover.jpg",
+                "balthazar-img-1.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Lia",
+            "gender": "female",
+            "age": "2 ans",
+            "age-range": "adult",
+            "city": "Roubaix",
+            "reserved": false,
+            "fair": true,
+            "good-with-cats": true,
+            "good-with-dogs": true,
+            "good-with-children": true,
+            "outdoor": true,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Lia, c’est la compagne tendre et malicieuse qu’on rêve d’accueillir. À 2 ans, elle combine l’énergie d’une jeune adulte et une vraie douceur de cœur. Curieuse et joueuse, elle adore explorer son environnement mais sait aussi se poser pour de longues séances de câlins. Bref, Lia est un petit rayon de soleil prêt à illuminer votre quotidien.",
+            "traits": [
+                "Curieuse",
+                "Joeuse",
+                "Câline",
+                "Affectueuse"
+            ],
+            "family": [
+                {
+                    "cover-img": "paul-renard.png",
+                    "firstname": "Paul",
+                    "lastname": "Renard",
+                    "phone": "07 12 45 33 11",
+                    "email": "paul.renard@gmail.com",
+                    "description": "Famille d’accueil à Roubaix depuis 2022, je m’occupe de chats adultes et apprécie de leur redonner confiance avant leur adoption."
+                }
+            ],
+            "cover-img": "lia-cover.jpg",
+            "images": [
+                "lia-cover.jpg",
+                "lia-img-1.jpg",
+                "lia-img-2.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Tigrou",
+            "gender": "male",
+            "age": "13 ans",
+            "age-range": "senior",
+            "city": "Marcq-en-Barœul",
+            "reserved": false,
+            "fair": true,
+            "good-with-cats": true,
+            "good-with-dogs": true,
+            "good-with-children": false,
+            "outdoor": true,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Tigrou, c’est le doyen tendre et tranquille qu’on a tout de suite envie de choyer. À 13 ans, ce gentleman aime la douceur d’un panier confortable et les longues siestes au soleil. Affectueux mais discret, il apprécie les câlins quand il l’a décidé et vous offrira en retour de beaux moments de complicité. Bref, Tigrou est un sage au grand cœur, parfait pour une famille aimant les compagnons posés et câlins.",
+            "traits": [
+                "Calme",
+                "Affectueux",
+                "Posé",
+                "Discret"
+            ],
+            "family": [
+                {
+                    "cover-img": "julien-serrano.png",
+                    "firstname": "Julien",
+                    "lastname": "Serrano",
+                    "phone": "06 27 34 18 42",
+                    "email": "julien.serrano@gmail.com",
+                    "description": "À Marcq-en-Barœul, j’accueille surtout des chats adultes sociables, je veille à leur bien-être et à leur socialisation."
+                }
+            ],
+            "cover-img": "tigrou-cover.jpg",
+            "images": [
+                "tigrou-cover.jpg",
+                "tigrou-img-1.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Nala",
+            "gender": "female",
+            "age": "3 ans",
+            "age-range": "adult",
+            "city": "Villeneuve-d'Ascq",
+            "reserved": true,
+            "fair": false,
+            "good-with-cats": true,
+            "good-with-dogs": false,
+            "good-with-children": false,
+            "outdoor": false,
+            "health": "stérilisé, FIV",
+            "special-needs": true,
+            "experienced-adopter": true,
+            "description": "Nala, c’est une douce guerrière au grand cœur. À 3 ans, cette jolie femelle vit avec le FIV, mais cela ne l’empêche pas d’aimer les câlins et les bons moments partagés. Calme et très attachante, elle recherche avant tout un foyer serein où elle pourra profiter de la tendresse qu’elle mérite. Bref, Nala est une compagne pleine d’amour, prête à prouver qu’un petit virus n’empêche pas une grande vie de bonheur.",
+            "traits": [
+                "Calme",
+                "Affectueuse",
+                "Tendre",
+                "Courageuse"
+            ],
+            "family": [
+                {
+                    "cover-img": "claire-morel.png",
+                    "firstname": "Claire",
+                    "lastname": "Morel",
+                    "phone": "07 81 45 09 23",
+                    "email": "claire.morel@gmail.com",
+                    "description": "À Villeneuve-d'Ascq, j’accueille souvent des chatons et j’aime les voir grandir dans un cadre chaleureux."
+                }
+            ],
+            "cover-img": "nala-cover.jpg",
+            "images": [
+                "nala-cover.jpg",
+                "nala-img-1.jpg",
+                "nala-img-2.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Sunny",
+            "gender": "male",
+            "age": "3 ans",
+            "age-range": "adult",
+            "city": "Lille",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": true,
+            "good-with-dogs": true,
+            "good-with-children": true,
+            "outdoor": true,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Sunny, c’est le rayon de soleil de la maison. À 3 ans, ce jeune mâle déborde de bonne humeur et de curiosité : toujours prêt à jouer, il sait aussi se poser pour de vrais moments de câlins. Sociable et affectueux, il s’entend facilement avec les humains comme avec les autres compagnons à quatre pattes. Bref, Sunny est un concentré d’énergie douce, parfait pour illuminer votre quotidien.",
+            "traits": [
+                "Affectueux",
+                "Joueur",
+                "Sociable",
+                "Câlin"
+            ],
+            "family": [
+                {
+                    "cover-img": "marie-delaunay.png",
+                    "firstname": "Marie",
+                    "lastname": "Delaunay",
+                    "phone": "06 74 18 92 35",
+                    "email": "marie.delaunay@gmail.com",
+                    "description": "J’accueille des chats depuis 2020, surtout des adultes qui ont besoin de reprendre confiance. J’adore leur redonner le goût des câlins, chacun à son rythme. Voir un chat s’épanouir et repartir heureux dans sa nouvelle famille, c’est ma plus belle récompense."
+                }
+            ],
+            "cover-img": "sunny-cover.jpg",
+            "images": [
+                "sunny-cover.jpg",
+                "sunny-img-1.jpg"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Teddy",
+            "gender": "male",
+            "age": "6 ans",
+            "age-range": "adult",
+            "city": "Wasquehal",
+            "reserved": false,
+            "fair": true,
+            "good-with-cats": true,
+            "good-with-dogs": true,
+            "good-with-children": true,
+            "outdoor": true,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Teddy, c’est le grand tendre au passé déjà riche. À 6 ans, ce mâle a vécu avec un chien et sait donc partager son espace avec un compagnon canin. Calme et posé, il aime observer avant de venir chercher des câlins et apprécie un foyer où règnent douceur et sérénité. Bref, Teddy est un cœur tranquille, parfait pour une famille aimant les moments paisibles… avec ou sans chien.",
+            "traits": [
+                "Sociable",
+                "Affectueux",
+                "Posé"
+            ],
+            "family": [
+                {
+                    "cover-img": "nadia-assaf.png",
+                    "firstname": "Nadia",
+                    "lastname": "Assaf",
+                    "phone": "06 93 12 41 75",
+                    "email": "nadia.assaf@gmail.com",
+                    "description": "Je suis famille d’accueil à Wasquehal depuis 2019, j’adore prendre soin des chats timides et leur redonner confiance."
+                }
+            ],
+            "cover-img": "teddy-cover.jpg",
+            "images": [
+                "teddy-cover.jpg",
+                "teddy-img-1.jpg",
+                "teddy-img-2.jpg"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Sirius",
+            "gender": "male",
+            "age": "2 ans",
+            "age-range": "adult",
+            "city": "Tourcoing",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": false,
+            "good-with-dogs": true,
+            "good-with-children": true,
+            "outdoor": false,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Sirius, c’est un jeune mâle de 2 ans au caractère affirmé. Il adore la présence des humains, profite volontiers des câlins et des séances de jeu, mais préfère rester l’unique chat de la maison. Indépendant et affectueux, il recherche un foyer où il pourra être le centre de toutes les attentions. Bref, Sirius est un compagnon fidèle et plein de charme, parfait pour une famille prête à lui offrir tout l’amour en solo.",
+            "traits": [
+                "Sociable",
+                "Affectueux",
+                "Indépendant"
+            ],
+             "family": [
+                {
+                    "cover-img": "lucas-gavaskar.png",
+                    "firstname": "Lucas",
+                    "lastname": "Gavaskar",
+                    "phone": "06 92 34 17 09",
+                    "email": "lucas.gavaskar@gmail.com",
+                    "description": "Famille d’accueil à Lomme depuis 2023, j’accueille principalement des jeunes adultes et je veille à leur bien-être avant leur adoption."
+                }
+            ],
+            "cover-img": "sirius-cover.jpg",
+            "images": [
+                "sirius-cover.jpg",
+                "sirius-img-1.jpg"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Luna",
+            "gender": "female",
+            "age": "3 ans",
+            "age-range": "adult",
+            "city": "Lomme",
+            "reserved": true,
+            "fair": false,
+            "good-with-cats": false,
+            "good-with-dogs": false,
+            "good-with-children": false,
+            "outdoor": false,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": true,
+            "description": "Luna, c’est une belle âme sensible qui a connu un passé difficile. À 3 ans, cette femelle cherche avant tout un foyer calme, sans autres animaux ni enfants, où elle pourra enfin se sentir en sécurité. Méfiante au premier abord, elle se révèle douce et attachante quand la confiance s’installe. Bref, Luna est une compagne au grand cœur qui saura offrir une belle relation à ceux qui respecteront son besoin de tranquillité.",
+            "traits": [
+                "Réservée",
+                "Calme",
+                "Calme"
+            ],
+            "family": [
+                {
+                    "cover-img": "lucas-gavaskar.png",
+                    "firstname": "Lucas",
+                    "lastname": "Gavaskar",
+                    "phone": "06 92 34 17 09",
+                    "email": "lucas.gavaskar@gmail.com",
+                    "description": "Famille d’accueil à Lomme depuis 2023, j’accueille principalement des jeunes adultes et je veille à leur bien-être avant leur adoption."
+                }
+            ],
+            "cover-img": "luna-cover.jpg",
+            "images": [
+                "luna-cover.jpg",
+                "luna-img-1.jpg",
+                "luna-img-2.jpg"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Gaston",
+            "gender": "male",
+            "age": "1 an",
+            "age-range": "adult",
+            "city": "Lille",
+            "reserved": true,
+            "fair": false,
+            "good-with-cats": false,
+            "good-with-dogs": false,
+            "good-with-children": true,
+            "outdoor": true,
+            "health": "Stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Gaston, c’est un jeune aventurier d’1 an qui sait déjà ce qu’il veut. Il adore jouer et recevoir l’attention des humains, et se montre très à l’aise avec les enfants. En revanche, il préfère rester l’unique animal du foyer : ni chats ni chiens pour partager son territoire ! Bref, Gaston est un compagnon plein d’énergie et de tendresse, parfait pour une famille avec enfants prête à lui offrir tout l’amour en solo.",
+            "traits": [
+                "Joueur",
+                "Energique",
+                "Affectueux"
+            ],
+            "family": [
+                {
+                    "cover-img": "emilie-genin.png",
+                    "firstname": "Emilie",
+                    "lastname": "Génin",
+                    "phone": "07 83 45 62 19",
+                    "email": "emilie.genin@gmail.com",
+                    "description": "Je suis famille d’accueil depuis 2021 et j’ai déjà eu le bonheur d’accompagner une dizaine de chats avant leur adoption. J’ai une préférence pour les chats un peu timides ou ayant besoin de reprendre confiance, car j’aime prendre le temps de les rassurer et de les voir s’épanouir jour après jour. Chez moi, les chats vivent au rythme de la maison, entourés d’affection et de douceur. Mon plus grand bonheur, c’est de les voir partir vers leur famille définitive, le cœur léger"
+                }
+            ],
+            "cover-img": "gaston-cover.jpg",
+            "images": [
+                "gaston-cover.jpg",
+                "gaston-img-1.jpg"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Olga",
+            "gender": "female",
+            "age": "5 ans",
+            "age-range": "adult",
+            "city": "Mons-en-Barœul",
+            "reserved": false,
+            "fair": true,
+            "good-with-cats": true,
+            "good-with-dogs": false,
+            "good-with-children": true,
+            "outdoor": false,
+            "health": "stérilisé, problème cardiaque",
+            "special-needs": true,
+            "experienced-adopter": true,
+            "description": "Olga, c’est une tendre battante de 5 ans au cœur fragile. Cette douce femelle vit avec un problème cardiaque qui demande un peu d’attention, mais elle déborde d’affection pour ceux qui prennent le temps de la connaître. Très proche des humains, elle recherche un foyer calme et aimant, sans chien, où elle pourra profiter de moments de tendresse en toute sérénité. Bref, Olga est une compagne sensible et attachante, prête à offrir un amour infini à sa future famille.",
+            "traits": [
+                "Douce",
+                "Affectueuse",
+                "Sensible",
+                "Calme"
+            ],
+            "family": [
+                {
+                    "cover-img": "lucie-benoit.png",
+                    "firstname": "Lucie",
+                    "lastname": "Benoit",
+                    "phone": "07 56 91 20 15",
+                    "email": "lucie.benoit@gmail.com",
+                    "description": "Famille d’accueil à Mons-en-Barœul, j’accueille souvent des chatons abandonnés et les aide à trouver leur famille définitive."
+                }
+            ],
+            "cover-img": "olga-cover.jpg",
+            "images": [
+                "olga-cover.jpg",
+                "olga-img-1.jpg"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Mistral",
+            "gender": "male",
+            "age": "5 ans",
+            "age-range": "adult",
+            "city": "Lille",
+            "reserved": false,
+            "fair": true,
+            "good-with-cats": true,
+            "good-with-dogs": false,
+            "good-with-children": true,
+            "outdoor": false,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Mistral, c’est un aventurier tranquille de 5 ans au charme discret. Curieux sans être intrépide, il aime observer le monde autour de lui avant de venir chercher une séance de câlins. Sociable et doux, il apprécie autant les moments de jeu que les longues siestes au soleil. Bref, Mistral est un compagnon équilibré, prêt à partager une vie paisible et pleine de tendresse.",
+            "traits": [
+                "Curieux",
+                "Doux",
+                "Calme",
+                "Sociable"
+            ],
+            "family": [
+                {
+                    "cover-img": "marie-delaunay.png",
+                    "firstname": "Marie",
+                    "lastname": "Delaunay",
+                    "phone": "06 74 18 92 35",
+                    "email": "marie.delaunay@gmail.com",
+                    "description": "J’accueille des chats depuis 2020, surtout des adultes qui ont besoin de reprendre confiance. J’adore leur redonner le goût des câlins, chacun à son rythme. Voir un chat s’épanouir et repartir heureux dans sa nouvelle famille, c’est ma plus belle récompense."
+                }
+            ],
+            "cover-img": "mistral-cover.jpg",
+            "images": [
+                "mistral-cover.jpg",
+                "mistral-img-1.jpg"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Chanel",
+            "gender": "female",
+            "age": "6 ans",
+            "age-range": "adult",
+            "city": "Roubaix",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": true,
+            "good-with-dogs": true,
+            "good-with-children": true,
+            "outdoor": false,
+            "health": "vermifugé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Chanel, c’est une élégante femelle de 6 ans au tempérament posé. Elle aime les moments calmes, les câlins discrets et observer la maison depuis son endroit préféré. Sociable et douce, elle recherche un foyer où règnent sérénité et affection. Bref, Chanel est une compagne équilibrée, parfaite pour une famille prête à lui offrir douceur et attention.",
+            "traits": [
+                "Douce",
+                "Posée",
+                "Sociable"
+            ],
+            "family": [
+                {
+                    "cover-img": "paul-renard.png",
+                    "firstname": "Paul",
+                    "lastname": "Renard",
+                    "phone": "07 12 45 33 11",
+                    "email": "paul.renard@gmail.com",
+                    "description": "Famille d’accueil à Roubaix depuis 2022, je m’occupe de chats adultes et apprécie de leur redonner confiance avant leur adoption."
+                }
+            ],
+            "cover-img": "chanel-cover.jpg",
+            "images": [
+                "chanel-cover.jpg",
+                "chanel-img-1.jpg",
+                "chanel-img-2.jpg"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Oscar",
+            "gender": "male",
+            "age": "3 ans",
+            "age-range": "adult",
+            "city": "Villeneuve-d'Ascq",
+            "reserved": false,
+            "fair": true,
+            "good-with-cats": false,
+            "good-with-dogs": false,
+            "good-with-children": true,
+            "outdoor": true,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Oscar, c’est un jeune mâle de 3 ans plein de curiosité et d’énergie. Il adore explorer et profiter de l’air frais, c’est pourquoi il a besoin d’un foyer avec un extérieur sécurisé. Sociable et joueur, il aime autant les moments de découverte que les câlins tranquilles. Bref, Oscar est un compagnon dynamique et affectueux, idéal pour une famille pouvant lui offrir un accès à l’extérieur.",
+            "traits": [
+                "Joueur",
+                "Curieux",
+                "Actif"
+            ],
+            "family": [
+                {
+                    "cover-img": "claire-morel.png",
+                    "firstname": "Claire",
+                    "lastname": "Morel",
+                    "phone": "07 81 45 09 23",
+                    "email": "claire.morel@gmail.com",
+                    "description": "À Villeneuve-d'Ascq, j’accueille souvent des chatons et j’aime les voir grandir dans un cadre chaleureux."
+                }
+            ],
+            "cover-img": "oscar-cover.jpg",
+            "images": [
+                "oscar-cover.jpg",
+                "oscar-img-1.jpg",
+                "oscar-img-2.jpg"
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Minnie",
+            "gender": "female",
+            "age": "6 ans",
+            "age-range": "adult",
+            "city": "Marcq-en-Barœul",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": true,
+            "good-with-dogs": true,
+            "good-with-children": false,
+            "outdoor": false,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Minnie, c’est une femelle de 6 ans au caractère délicat et à l’affection discrète. Elle recherche un foyer calme, sans enfants, où elle pourra profiter de moments de tranquillité et de câlins en toute sérénité. Réservée au premier abord, elle se révèle douce et attachante une fois en confiance. Bref, Minnie est une compagne sensible, parfaite pour une famille prête à respecter son besoin de calme.",
+            "traits": [
+                "Réservée",
+                "Douce",
+                "Calme"
+            ],
+            "family": [
+                {
+                    "cover-img": "julien-serrano.png",
+                    "firstname": "Julien",
+                    "lastname": "Serrano",
+                    "phone": "06 27 34 18 42",
+                    "email": "julien.serrano@gmail.com",
+                    "description": "À Marcq-en-Barœul, j’accueille surtout des chats adultes sociables, je veille à leur bien-être et à leur socialisation."
+                }
+            ],
+            "cover-img": "minnie-cover.jpg",
+            "images": [
+                "minnie-cover.jpg",
+                "minnie-img-1.jpg",
+                "minnie-img-2.jpg"
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Yoda",
+            "gender": "female",
+            "age": "2 ans",
+            "age-range": "adult",
+            "city": "Roubaix",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": true,
+            "good-with-dogs": true,
+            "good-with-children": true,
+            "outdoor": true,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Yoda, c’est une jeune femelle de 2 ans pleine de malice et d’affection. Curieuse et joueuse, elle adore explorer son environnement avant de venir chercher des câlins. Équilibrée et attachante, elle s’adapte facilement et saura rapidement trouver sa place dans son nouveau foyer. Bref, Yoda est une petite boule d’énergie douce, prête à partager complicité et tendresse.",
+            "traits": [
+                "Curieuse",
+                "Joueuse",
+                "Equilibrée",
+                "Attachante"
+            ],
+            "family": [
+                {
+                    "cover-img": "paul-renard.png",
+                    "firstname": "Paul",
+                    "lastname": "Renard",
+                    "phone": "07 12 45 33 11",
+                    "email": "paul.renard@gmail.com",
+                    "description": "Famille d’accueil à Roubaix depuis 2022, je m’occupe de chats adultes et apprécie de leur redonner confiance avant leur adoption."
+                }
+            ],
+            "cover-img": "yoda-cover.jpg",
+            "images": [
+                "yoda-cover.jpg",
+                "yoda-img-1.jpg",
+                "yoda-img-2.jpg"
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Félix",
+            "gender": "male",
+            "age": "7 ans",
+            "age-range": "adult",
+            "city": "La Madeleine",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": false,
+            "good-with-dogs": false,
+            "good-with-children": false,
+            "outdoor": true,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": true,
+            "description": "Félix, c’est un mâle de 7 ans au regard profond qui cache une belle sensibilité. Son passé difficile l’a rendu méfiant au départ, mais il s’attache profondément à ceux qui lui offrent patience et douceur. Il a besoin d’un foyer avec un extérieur pour s’épanouir pleinement et retrouver sa liberté en toute sécurité. Bref, Félix est un compagnon courageux et tendre, qui saura offrir une belle complicité à une famille respectueuse de son rythme.",
+            "traits": [
+                "Sensible",
+                "Courageux",
+                "Indépendant"
+            ],
+             "family": [
+                {
+                    "cover-img": "lucas-gavaskar.png",
+                    "firstname": "Lucas",
+                    "lastname": "Gavaskar",
+                    "phone": "06 92 34 17 09",
+                    "email": "lucas.gavaskar@gmail.com",
+                    "description": "Famille d’accueil à Lomme depuis 2023, j’accueille principalement des jeunes adultes et je veille à leur bien-être avant leur adoption."
+                }
+            ],
+            "cover-img": "felix-cover.jpg",
+            "images": [
+                "felix-cover.jpg",
+                "felix-img-1.jpg"
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Iris",
+            "gender": "female",
+            "age": "7 ans",
+            "age-range": "adult",
+            "city": "Marcq-en-Barœul",
+            "reserved": true,
+            "fair": false,
+            "good-with-cats": true,
+            "good-with-dogs": true,
+            "good-with-children": false,
+            "outdoor": true,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Iris, c’est une élégante femelle de 7 ans au caractère doux et posé. Elle aime la tranquillité, les câlins choisis et les siestes dans un coin ensoleillé. Facile à vivre et attachante, elle s’épanouira dans un foyer calme où elle pourra recevoir toute l’attention qu’elle mérite. Bref, Iris est une compagne tendre et apaisante, idéale pour partager des moments de sérénité.",
+            "traits": [
+                "Calme",
+                "Douce",
+                "Tendre"
+            ],
+            "family": [
+                {
+                    "cover-img": "julien-serrano.png",
+                    "firstname": "Julien",
+                    "lastname": "Serrano",
+                    "phone": "06 27 34 18 42",
+                    "email": "julien.serrano@gmail.com",
+                    "description": "À Marcq-en-Barœul, j’accueille surtout des chats adultes sociables, je veille à leur bien-être et à leur socialisation."
+                }
+            ],
+            "cover-img": "iris-cover.jpg",
+            "images": [
+                "iris-cover.jpg",
+                "iris-img-1.jpg"
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Naya",
+            "gender": "female",
+            "age": "6 ans",
+            "age-range": "adult",
+            "city": "Villeneuve-d'Ascq",
+            "reserved": false,
+            "fair": true,
+            "good-with-cats": false,
+            "good-with-dogs": true,
+            "good-with-children": false,
+            "outdoor": false,
+            "health": "stérilisé, FIV",
+            "special-needs": true,
+            "experienced-adopter": true,
+            "description": "Naye, c’est une femelle de 6 ans au cœur tendre qui vit avec le FIV. Douce et affectueuse, elle adore les moments de complicité et se montre très proche de ses humains. Elle recherche un foyer calme et aimant, où elle pourra profiter de câlins en toute sérénité. Bref, Naye est une compagne sensible et attachante, prête à prouver que le FIV n’empêche en rien une vie pleine d’amour.",
+            "traits": [
+                "Douce",
+                "Sensible",
+                "Calme"
+            ],
+            "family": [
+                {
+                    "cover-img": "claire-morel.png",
+                    "firstname": "Claire",
+                    "lastname": "Morel",
+                    "phone": "07 81 45 09 23",
+                    "email": "claire.morel@gmail.com",
+                    "description": "À Villeneuve-d'Ascq, j’accueille souvent des chatons et j’aime les voir grandir dans un cadre chaleureux."
+                }
+            ],
+            "cover-img": "naya-cover.jpg",
+            "images": [
+                "naya-cover.jpg",
+                "naya-img-1.jpg",
+                "naya-img-2.jpg"
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Pablo",
+            "gender": "male",
+            "age": "1 ans",
+            "age-range": "adult",
+            "city": "Roubaix",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": false,
+            "good-with-dogs": true,
+            "good-with-children": false,
+            "outdoor": true,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": true,
+            "description": "Pablo, c’est un jeune mâle d’1 an au caractère affirmé. Très proche des adultes, il aime jouer et profiter de moments de complicité, mais il préfère être le seul animal du foyer et n’est pas à l’aise avec les enfants. Indépendant et attachant, il recherche une famille calme prête à respecter son besoin d’exclusivité. Bref, Pablo est un compagnon vif et sensible, idéal pour ceux qui veulent un lien unique avec leur chat.",
+            "traits": [
+                "Indépendant",
+                "Joueur",
+                "Vif",
+                "Sensible"
+            ],
+            "family": [
+                {
+                    "cover-img": "paul-renard.png",
+                    "firstname": "Paul",
+                    "lastname": "Renard",
+                    "phone": "07 12 45 33 11",
+                    "email": "paul.renard@gmail.com",
+                    "description": "Famille d’accueil à Roubaix depuis 2022, je m’occupe de chats adultes et apprécie de leur redonner confiance avant leur adoption."
+                }
+            ],
+            "cover-img": "pablo-cover.jpg",
+            "images": [
+                "pablo-cover.jpg",
+                "pablo-img-1.jpg",
+                "pablo-img-2.jpg"
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Sweety",
+            "gender": "female",
+            "age": "5 ans",
+            "age-range": "adult",
+            "city": "Wasquehal",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": true,
+            "good-with-dogs": false,
+            "good-with-children": false,
+            "outdoor": false,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Sweety, c’est une adorable femelle de 5 ans au nom qui lui va comme un gant. Douce et affectueuse, elle aime les câlins et les instants de tendresse partagés. Facile à vivre et calme, elle saura s’adapter à un foyer aimant où elle pourra donner tout l’amour qu’elle a à offrir. Bref, Sweety est une compagne tendre et apaisante, parfaite pour une vie remplie de douceur.",
+            "traits": [
+                "Douce",
+                "Affectueuse",
+                "Calme"
+            ],
+            "family": [
+                {
+                    "cover-img": "nadia-assaf.png",
+                    "firstname": "Nadia",
+                    "lastname": "Assaf",
+                    "phone": "06 93 12 41 75",
+                    "email": "nadia.assaf@gmail.com",
+                    "description": "Je suis famille d’accueil à Wasquehal depuis 2019, j’adore prendre soin des chats timides et leur redonner confiance."
+                }
+            ],
+            "cover-img": "sweety-cover.jpg",
+            "images": [
+                "sweety-cover.jpg",
+                "sweety-img-1.jpg",
+                "sweety-img-2.jpg"
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Reno",
+            "gender": "male",
+            "age": "5 ans",
+            "age-range": "adult",
+            "city": "Marcq-en-Barœul",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": false,
+            "good-with-dogs": true,
+            "good-with-children": true,
+            "outdoor": false,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Reno, c’est un charmant mâle de 5 ans au caractère bien affirmé. Très proche des humains, il aime les câlins et les moments de complicité, mais préfère être le seul chat de la maison. En revanche, il s’entend bien avec les chiens et saura partager son espace avec eux. Bref, Nino est un compagnon tendre et sociable, idéal pour une famille avec chien à la recherche d’un chat affectueux.",
+            "traits": [
+                "Affectueux",
+                "Sociable",
+                "Tendre"
+            ],
+            "family": [
+                {
+                    "cover-img": "julien-serrano.png",
+                    "firstname": "Julien",
+                    "lastname": "Serrano",
+                    "phone": "06 27 34 18 42",
+                    "email": "julien.serrano@gmail.com",
+                    "description": "À Marcq-en-Barœul, j’accueille surtout des chats adultes sociables, je veille à leur bien-être et à leur socialisation."
+                }
+            ],
+            "cover-img": "reno-cover.jpg",
+            "images": [
+                "reno-cover.jpg",
+                "reno-img-1.jpg"
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Tessa",
+            "gender": "female",
+            "age": "4 ans",
+            "age-range": "adult",
+            "city": "Roubaix",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": true,
+            "good-with-dogs": true,
+            "good-with-children": true,
+            "outdoor": false,
+            "health": "stérilisé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Tessa, c’est une femelle de 4 ans au tempérament équilibré. À la fois joueuse et câline, elle aime partager des moments de complicité tout en profitant de temps calmes pour se reposer. Facile à vivre et attachante, elle s’adapte aisément à son environnement. Bref, Tessa est une compagne douce et joyeuse, parfaite pour une famille cherchant un chat tendre et harmonieux.",
+            "traits": [
+                "Joueuse",
+                "Câline",
+                "Douce"
+            ],
+            "family": [
+                {
+                    "cover-img": "paul-renard.png",
+                    "firstname": "Paul",
+                    "lastname": "Renard",
+                    "phone": "07 12 45 33 11",
+                    "email": "paul.renard@gmail.com",
+                    "description": "Famille d’accueil à Roubaix depuis 2022, je m’occupe de chats adultes et apprécie de leur redonner confiance avant leur adoption."
+                }
+            ],
+            "cover-img": "tessa-cover.jpg",
+            "images": [
+                "tessa-cover.jpg",
+                "tessa-img-1.jpg"
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Zazou",
+            "gender": "male",
+            "age": "4 ans",
+            "age-range": "adult",
+            "city": "Lille",
+            "reserved": false,
+            "fair": false,
+            "good-with-cats": true,
+            "good-with-dogs": true,
+            "good-with-children": true,
+            "outdoor": false,
+            "health": "vermifugé",
+            "special-needs": false,
+            "experienced-adopter": false,
+            "description": "Zazou, c’est un mâle de 4 ans plein de vie et de curiosité. Toujours prêt à explorer ou à jouer, il apporte une belle dose d’énergie et de bonne humeur à la maison. Mais derrière son côté dynamique, il sait aussi apprécier les câlins et les moments de calme. Bref, Zazou est un compagnon joyeux et affectueux, idéal pour une famille prête à partager son quotidien animé.",
+            "traits": [
+                "Joueur",
+                "Affectueux",
+                "Joyeux"
+            ],
+            "family": [
+                {
+                    "cover-img": "marie-delaunay.png",
+                    "firstname": "Marie",
+                    "lastname": "Delaunay",
+                    "phone": "06 74 18 92 35",
+                    "email": "marie.delaunay@gmail.com",
+                    "description": "J’accueille des chats depuis 2020, surtout des adultes qui ont besoin de reprendre confiance. J’adore leur redonner le goût des câlins, chacun à son rythme. Voir un chat s’épanouir et repartir heureux dans sa nouvelle famille, c’est ma plus belle récompense."
+                }
+            ],
+            "cover-img": "zazou-cover.jpg",
+            "images": [
+                "zazou-cover.jpg",
+                "zazou-img-1.jpg",
+                "zazou-img-2.jpg"
+            ]
+        }
+    ]
+}

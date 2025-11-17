@@ -1,0 +1,25 @@
+{
+  
+  "kitten": {
+    "label": "Chaton",
+    "price": 140,
+    "description": "Chat de moins d'un an"
+  },
+  "adult": {
+    "label": "Chat adulte",
+    "price": 110,
+    "description": "Chat entre 1 et 7 ans"
+  },
+  "senior": {
+    "label": "Chat sénior",
+    "price": 30,
+    "description": "Chat de 8 ans ou plus",
+    "note": "+ don libre"
+  },
+  "special": {
+    "label": "Cas particulier",
+    "price": 30,
+    "description": "Besoins médicaux spéciaux, etc...",
+    "note": "+ don libre"
+  }
+}

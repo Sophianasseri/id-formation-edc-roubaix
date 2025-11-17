@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="adoption chat association, protection, animaux" />
+    <title>Ecole du chat Roubaix et environs</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <picture>
+                <source media="(min-width:1024px)" srcset="./images/logo/logo-texte.svg">
+                <img src="./images/logo/avatar.svg" alt="Logo de l'école du chat de Roubaix et environs">
+            </picture>
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="menu-link" href="adopt.html">Adopter un chat</a></li>
+                <li><a class="menu-link" href="advices.html">Conseils</a></li>
+                <li>
+                    <a class="menu-link" href="howtoadopt.html">Comment adopter</a>
+                </li>
+                <li><a class="menu-link" href="events.html">Évènements</a></li>
+                <li><a class="menu-link" href="#">À propos</a></li>
+            </ul>
+        </nav>
+        <div class="header-btn">
+            <button class="account">
+                <img class="account-img" src="./images/icones/compte.svg" alt />
+            </button>
+            <button id="burger" class="burger">
+                <img src="./images/icones/menu-burger.svg" alt="menu de navigation" />
+            </button>
+        </div>
+    </header>
+    <main>
+        <nav class="breadcrumb">
+            <a href="./index.html">
+                <img src="./images/icones/fleche.svg" alt="retour" />
+                <p>Accueil</p>
+            </a>
+        </nav>
+        <section class="survey">
+            <div class="survey-banner">
+                <img src="./images/chat-assis.svg" alt="Salem la mascotte">
+                <h1 class="survey-title">Trouvons votre chat idéal !</h1>
+            </div>
+            <div class="survey-wrapper">
+                <div class="progress-wrapper">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <p class="progress-text">1/9</p>
+                </div>
+                <div class="question-container"></div>
+                <div class="nav-buttons">
+                    <button class="prevBtn" style="display: flex;">
+                        Précédent
+                    </button>
+                    <button class="nextBtn" style="display: flex;">
+                        Suivant
+                    </button>
+                </div>
+            </div>
+
+            <div class="summary-container"></div>
+        </section>
+    </main>
+    <script type="module" src="survey.js"></script>
+</body>
+
+</html>

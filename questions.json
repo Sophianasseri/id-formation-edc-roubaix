@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Je recherche un chat dans le secteur de : ",
+      "type": "text"
+    },
+    {
+      "id": 2,
+      "question": "J'ai déjà adopté un chat auparavant : ",
+      "type": "radio",
+      "options": ["Oui", "Non"]
+    },
+    {
+      "id": 3,
+      "question": "Je veux adopter un chat : ",
+      "type": "radio",
+      "options": ["Femelle", "Mâle", "Indifférent"]
+    },
+    {
+      "id": 4,
+      "question": "Je veux adopter un chat : ",
+      "type": "radio",
+      "options": ["Chaton (-1an)", "Adulte(1an - 7 ans)", "Senior (+ 8 ans)", "indifférent"]
+    },
+    {
+      "id": 5,
+      "question": "J'ai des enfants dans mon foyer : ",
+      "type": "radio",
+      "options": ["Oui", "Non"]
+    },
+    {
+      "id": 6,
+      "question": "J'ai déjà un ou plusieurs chats dans mon foyer : ",
+      "type": "radio",
+      "options": ["Oui", "Non"]
+    },
+
+ {
+      "id": 7,
+      "question": "J'ai déjà un ou plusieurs chiens dans mon foyer : ",
+      "type": "radio",
+      "options": ["Oui", "Non"]
+    },
+    {
+      "id": 8,
+      "question": "Je cherche un chat qui n’a pas besoin d’extérieur : ",
+      "type": "radio",
+      "options": ["Oui", "Non"]
+    },
+     {
+      "id": 9,
+      "question": "Je suis ouvert(e) aux chats avec des besoins spéciaux : ",
+      "type": "radio",
+      "options": ["Oui", "Non"]
+    }
+  ]
+}

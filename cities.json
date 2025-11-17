@@ -1,0 +1,179 @@
+{
+    "cities": [
+        {
+            "id": 1,
+            "name": "Lille",
+            "zipcode": "59000",
+            "lat": 50.6292,
+            "lon": 3.0573
+        },
+        {
+            "id": 2,
+            "name": "Roubaix",
+            "zipcode": "59100",
+            "lat": 50.6921,
+            "lon": 3.1746
+        },
+        {
+            "id": 3,
+            "name": "Tourcoing",
+            "zipcode": "59200",
+            "lat": 50.7214,
+            "lon": 3.1617
+        },
+        {
+            "id": 4,
+            "name": "Villeneuve-d'Ascq",
+            "zipcode": "59650",
+            "lat": 50.6292,
+            "lon": 3.1341
+        },
+        {
+            "id": 5,
+            "name": "Marcq-en-Barœul",
+            "zipcode": "59700",
+            "lat": 50.6711,
+            "lon": 3.0972
+        },
+        {
+            "id": 6,
+            "name": "Lambersart",
+            "zipcode": "59130",
+            "lat": 50.6358,
+            "lon": 3.0456
+        },
+        {
+            "id": 7,
+            "name": "La Madeleine",
+            "zipcode": "59110",
+            "lat": 50.6372,
+            "lon": 3.0708
+        },
+        {
+            "id": 8,
+            "name": "Halluin",
+            "zipcode": "59250",
+            "lat": 50.7744,
+            "lon": 3.1456
+        },
+        {
+            "id": 9,
+            "name": "Faches-Thumesnil",
+            "zipcode": "59155",
+            "lat": 50.5983,
+            "lon": 3.0625
+        },
+        {
+            "id": 10,
+            "name": "Hem",
+            "zipcode": "59510",
+            "lat": 50.6897,
+            "lon": 3.1389
+        },
+        {
+            "id": 11,
+            "name": "Haubourdin",
+            "zipcode": "59320",
+            "lat": 50.6097,
+            "lon": 3.0508
+        },
+        {
+            "id": 12,
+            "name": "Mons-en-Barœul",
+            "zipcode": "59370",
+            "lat": 50.6408,
+            "lon": 3.0806
+        },
+        {
+            "id": 13,
+            "name": "Ronchin",
+            "zipcode": "59790",
+            "lat": 50.6022,
+            "lon": 3.0708
+        },
+        {
+            "id": 14,
+            "name": "Loos",
+            "zipcode": "59120",
+            "lat": 50.6097,
+            "lon": 3.0456
+        },
+        {
+            "id": 15,
+            "name": "Lomme",
+            "zipcode": "59160",
+            "lat": 50.6358,
+            "lon": 3.0142
+        },
+        {
+            "id": 16,
+            "name": "Wattrelos",
+            "zipcode": "59150",
+            "lat": 50.7283,
+            "lon": 3.1878
+        },
+        {
+            "id": 17,
+            "name": "Wattignies",
+            "zipcode": "59139",
+            "lat": 50.5886,
+            "lon": 3.0667
+        },
+        {
+            "id": 18,
+            "name": "Seclin",
+            "zipcode": "59113",
+            "lat": 50.5489,
+            "lon": 3.0303
+        },
+        {
+            "id": 19,
+            "name": "Comines",
+            "zipcode": "59560",
+            "lat": 50.7486,
+            "lon": 2.9069
+        },
+        {
+            "id": 20,
+            "name": "La Bassée",
+            "zipcode": "59480",
+            "lat": 50.5583,
+            "lon": 2.9922
+        },
+        {
+            "id": 21,
+            "name": "Bondues",
+            "zipcode": "59910",
+            "lat": 50.6886,
+            "lon": 3.1250
+        },
+        {
+            "id": 22,
+            "name": "Saint-André-lez-Lille",
+            "zipcode": "59350",
+            "lat": 50.6844,
+            "lon": 3.1097
+        },
+        {
+            "id": 23,
+            "name": "Anstaing",
+            "zipcode": "59152",
+            "lat": 50.6071,
+            "lon": 3.0822
+        },
+        {
+            "id": 24,
+            "name": "Englos",
+            "zipcode": "59320",
+            "lat": 50.6111,
+            "lon": 3.0361
+        },
+        {
+            "id": 25,
+            "name": "Loos-lez-Lille",
+            "zipcode": "59120",
+            "lat": 50.6100,
+            "lon": 3.0450
+        }
+    ]
+}

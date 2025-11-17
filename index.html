@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="adoption chat association, protection, animaux" />
+  <title>Ecole du chat Roubaix et environs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
+      <picture>
+        <source media="(min-width:1024px)" srcset="./images/logo/logo-texte.svg">
+        <img src="./images/logo/avatar.svg" alt="Logo de l'école du chat de Roubaix et environs">
+      </picture>
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a class="menu-link" href="adopt.html">Adopter un chat</a></li>
+        <li><a class="menu-link" href="advices.html">Conseils</a></li>
+        <li>
+          <a class="menu-link" href="howtoadopt.html">Comment adopter</a>
+        </li>
+        <li><a class="menu-link" href="events.html">Évènements</a></li>
+        <li><a class="menu-link" href="#">À propos</a></li>
+      </ul>
+    </nav>
+    <div class="header-btn">
+      <button class="account">
+        <img class="account-img" src="./images/icones/compte.svg" alt />
+      </button>
+      <button id="burger" class="burger">
+        <img src="./images/icones/menu-burger.svg" alt="menu de navigation" />
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="banner">
+      <div class="hero">
+        <img src="./images/banner.jpg" alt="Petit garçon avec un chat">
+      </div>
+      <div class="banner-presentation">
+        <h1><span class="rectangle-background">Trouvez</span> votre ami félin</h1>
+        <p>
+          L’école du chat de Roubaix propose plus de 200 chats prêts à être adoptés.
+          Venez les rencontrer et trouver votre futur compagnon à quatre pattes.
+        </p>
+        <form action autocomplete="off">
+          <div class="search-filter-container">
+            <div class="search-bar">
+              <input id="cityInput" class="search-input" type="text" name="city" placeholder="Entrez une ville" />
+              <div class="search-container">
+                <button class="dropdown__toggle" type="button">
+                  5 km
+                  <img src="./images/icones/chevron.svg" alt="Choisir une distance" />
+                </button>
+                <ul class="dropdown__menu">
+                  <li class="option" role="option">5 km</li>
+                  <li class="option" role="option">10 km</li>
+                  <li class="option" role="option">15 km</li>
+                  <li class="option" role="option">20 km</li>
+                  <li class="option" role="option">25 km</li>
+                  <li class="option" role="option">30 km</li>
+                  <li class="option" role="option">35 km</li>
+                  <li class="option" role="option">40 km</li>
+                </ul>
+                <a href="./adopt.html" class="search-btn" id="search-btn" type="submit">
+                  <img src="./images/icones/recherche.svg" alt="Rechercher un chat"/>
+                </a>
+              </div>
+              <div id="suggestions" class="suggestions"></div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="survey-cta">
+      <div>
+        <h2>Quel <span class="rectangle-background">chat</span> est fait pour vous ?</h2>
+        <p>
+          Vous ne savez pas comment choisir votre chat ? <br> Pas de panique, nous
+          vous aidons à trouver le chat idéal en seulement quelques minutes.
+        </p>
+      </div>
+
+      <div class="survey-container">
+        <div class="survey-container-text">
+          <p>“ Je vous aide à trouver le chat qui est fait pour vous ! “</p>
+          <img class="mascot" src="./images/chat-assis.svg" alt="Illustration de la mascotte de l'association">
+        </div>
+        <div class="survey-btn-container">
+          <img src="./images/fleche.svg" alt="Flèche">
+          <a class="button" href="./survey.html">Passer le questionnaire</a>
+        </div>
+      </div>
+    </section>
+    <section class="selected-cats">
+      <h2>Nos chats à <span class="rectangle-background">l'adoption</span></h2>
+      <div class="selected-cats-container">
+        <button class="catPrev"><img src="./images/icones/chevron-alternatif.svg" alt="Précédent"></button>
+        <div class="slide-wrapper">
+          <div id="random-cats" class="card-container"></div>
+        </div>
+        <button class="catNext"><img src="./images/icones/chevron-alternatif.svg" alt="Suivant"></button>
+      </div>
+      <a href="./adopt.html" class="button">Trouver mon chat</a>
+    </section>
+     <section class="researched-cats">
+      <h2>Vos derniers chats <span class="rectangle-background">recherchés</span></h2>
+      <div class="researched-cats-container">
+        <button class="catPrev"><img src="./images/icones/chevron-alternatif.svg" alt="Précédent"></button>
+        <div class="slide-wrapper">
+          <div id="researched-cats" class="card-container"></div>
+        </div>
+        <button class="catNext"><img src="./images/icones/chevron-alternatif.svg" alt="Suivant"></button>
+      </div>
+    </section>
+    <section class="advices">
+      <svg width="0" height="0" style="position:absolute">
+        <defs>
+          <clipPath id="image-shape" clipPathUnits="objectBoundingBox">
+            <path d="
+        M0.971,0.963
+        C0.958,0.982,0.941,0.991,0.923,0.992
+        C0.754,0.996,0.579,1,0.409,0.996
+        C0.288,0.989,0.169,0.992,0.051,0.991
+        C0.049,0.991,0.035,0.991,0.025,0.976
+        C0.018,0.968,0.014,0.954,0.014,0.94
+        C0.01,0.774,-0.001,0.616,0,0.442
+        C0,0.314,0.011,0.178,0.014,0.056
+        C0.015,0.044,0.017,0.03,0.025,0.019
+        C0.033,0.007,0.045,0.004,0.05,0.003
+        C0.096,0,0.364,0.007,0.447,0.007
+        C0.447,0.007,0.88,-0.006,0.944,0.003
+        C0.948,0.004,0.962,0.006,0.971,0.019
+        C0.977,0.028,0.98,0.041,0.98,0.056
+        C0.984,0.114,0.994,0.184,0.997,0.245
+        C1,0.497,0.995,0.721,0.98,0.939
+        C0.98,0.942,0.98,0.949,0.971,0.963
+        Z
+      " />
+          </clipPath>
+        </defs>
+      </svg>
+      <img class="adoption-article-img" src="./images/adoption-article.jpg" alt="Petite fille allongée avec un chat">
+      <div>
+        <h2>Bien <span class="rectangle-background">préparer</span> son adoption</h2>
+        <p>Adopter un chat n’est pas anodin et peut parfois générer un stress.
+          Nous vous proposons des conseils pour bien vous préparer à l’adoption
+          de votre compagnon et l’accueillir dans les meilleures conditions.</p>
+        <a class="button" href="advices.html">En savoir plus</a>
+      </div>
+
+    </section>
+    <section class="prices">
+      <h2>Les <span class="rectangle-background">frais</span> d'adoption</h2>
+      <p class="prices-description">Les frais d’adoption couvrent les soins
+        vétérinaires pour l’identification et la stérilisation des chats. Ils
+        s’élèvent à <span class="bold">110 €</span> pour un chaton et à <span class="bold">80 €</span> pour un chat
+        adulte. À cela s’ajoute une
+        adhésion annuelle de <span class="bold">30 €</span>, qui nous permet
+        de continuer à prendre en charge les chats.</p>
+      <div class="price-card-container">
+        <div class="price-card">
+          <div class="price-card-text">
+            <h3>Chaton</h3>
+            <p>Chat de moins d'1 an</p>
+          </div>
+          <div class="price-container">
+            <div class="price-shape-container">
+              <img class="shape" src="./images/shape.svg">
+              <p class="price bold"> 140€</p>
+            </div>
+          </div>
+        </div>
+        <div class="price-card">
+          <div class="price-card-text">
+            <h3>Chat adulte</h3>
+            <p>Chat entre 1 an et 7 ans</p>
+          </div>
+          <div class="price">
+          </div>
+          <div class="price-container">
+            <div class="price-shape-container">
+              <img class="shape" src="./images/shape.svg">
+              <p class="price bold"> 110€</p>
+            </div>
+          </div>
+        </div>
+        <div class="price-card">
+          <div class="price-card-text">
+            <h3>Chat sénior</h3>
+            <p>Chat de 8 ans ou plus</p>
+          </div>
+          <div class="price-container">
+            <div class="price-shape-container">
+              <img class="shape" src="./images/shape.svg">
+              <p class="price bold"> 30€</p>
+            </div>
+            <p class="bold">+ don libre</p>
+          </div>
+        </div>
+        <div class="price-card">
+          <div class="price-card-text">
+            <h3>Cas particulier</h3>
+            <p>Besoins médicaux spéciaux, etc...</p>
+          </div>
+          <div class="price-container">
+            <div class="price-shape-container">
+              <img class="shape" src="./images/shape.svg">
+              <p class="price bold"> 30€</p>
+            </div>
+            <p class="bold">+ don libre</p>
+          </div </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimony">
+      <h2>Les petits <span class="rectangle-background">chanceux</span></h2>
+      <p>Ces chats ont eu la chance de trouver un foyer. Découvrez les belles histoires de ces chats adoptés à l’école
+        du chat.</p>
+      <div class="testimony-card-container">
+        <button class="catPrev"><img src="./images/icones/chevron-alternatif.svg" alt="Précédent"></button>
+        <div class="slide-wrapper">
+          <div class="card-container">
+            <div class="testimony-card">
+              <img src="./images/testimony/testimony-1.png" alt="chat tigré et blanc allongé sur un lit">
+              <div class="testomny-card-text">
+                <div>
+                  <h3>Cookie</h3>
+                  <p>Quand nous avons rencontré Cookie, il était un peu timide et se cachait derrière son panier. Mais
+                    très
+                    vite, il a montré sa douceur et son côté câlin. Aujourd’hui, il s’endort tous les soirs sur nos
+                    genoux
+                    et
+                    nous suit dans toutes les pièces. Adopter Cookie, c’est avoir gagné un membre de la famille à part
+                    entière
+                  </p>
+                </div>
+                <a class="button event-button">Lire la suite</a>
+              </div>
+            </div>
+            <div class="testimony-card">
+              <img src="./images/testimony/testimony-2.png" alt="chat blanc">
+              <div class="testomny-card-text">
+                <div>
+                  <h3>Luna</h3>
+                  <p>Luna a débordé d’énergie dès son arrivée à la maison. Elle grimpe partout, joue avec la moindre
+                    ficelle
+                    et nous fait rire chaque jour. Derrière ses bêtises se cache un vrai petit cœur tendre qui vient se
+                    blottir contre nous le soir. Elle a transformé notre quotidien en terrain de jeu.</p>
+                </div>
+                <a class="button event-button">Lire la suite</a>
+              </div>
+            </div>
+            <div class="testimony-card">
+              <img src="./images/testimony/testimony-3.png" alt="chat tigré">
+              <div class="testomny-card-text">
+                <div>
+                  <h3>Paco</h3>
+                  <p>Nous avons adopté Paco fin décembre, il a rapidement pris ses marques dans sa nouvelle maison et
+                    trouvé
+                    sa place fétiche au coin du feu ! cœur tendre qui vient se blottir contre nous le soir. Elle a
+                    transformé notre quotidien en terrain de jeu.</p>
+                </div>
+                <a class="button event-button">Lire la suite</a>
+              </div>
+            </div>
+            <div class="testimony-card">
+              <img src="./images/testimony/testimony-4.png" alt="chat tigré">
+              <div class="testomny-card-text">
+                <div>
+                  <h3>Douchka</h3>
+                  <p>Mon compagnon et moi étions prêts pour un deuxième chat et c'est ici que nous avons croisé le
+                    profil
+                    de la jolie Douchka. Rescapée des rues de Roubaix, elle a eu un début de vie très difficile.cœur
+                    tendre
+                    qui vient se blottir contre nous le soir. Elle a transformé notre quotidien en terrain de jeu.</p>
+                </div>
+                <a class="button event-button">Lire la suite</a>
+              </div>
+            </div>
+            <div class="testimony-card">
+              <img src="./images/testimony/testimony-5.png" alt="chat tigré">
+              <div class="testomny-card-text">
+                <div>
+                  <h3>Zephyr</h3>
+                  <p>2 ans que j’ai adopté Zephyr : une boule d’amour qui n’a pas eu un début de vie facile mais qui
+                    aujourd’hui s’amuse comme une folle à 4h du matin, demande des câlins tout le temps, est curieuse,
+                    pas très gourmande mais adore le poulet, réussi à se laisser approcher par des inconnus (doucement
+                    mais sûrement) elle a beaucoup évolué ! quand je l’ai choisie, on m’a dit « personne ne veut d’elle,
+                    elle n’est plus bébé et trop craintive » moi je l’aime, je la chéris. On a une relation très
+                    spéciale elle et moi et j’en suis comblée</p>
+                </div>
+                <a class="button event-button">Lire la suite</a>
+              </div>
+            </div>
+            <div class="testimony-card">
+              <img src="./images/testimony/testimony-6.png" alt="chat roux">
+              <div class="testomny-card-text">
+                <div>
+                  <h3>Tempo</h3>
+                  <p>
+                    Lorsque j’ai vu son adorable frimousse sur le site de l'école du chat, j’ai eu un vrai coup de
+                    cœur,je me suis
+                    empressée d’aller le rencontrer. J’ai tout de suite été conquise par ce jeune chat au regard empli
+                    de tendresse. Depuis bientôt deux mois,nous partageons une vie remplie d’amour,de complicité et de
+                    bonheur. Je remercie les bénévoles pour leur travail, leurs précieux conseils
+                    et leur gentillesse.</p>
+                </div>
+                <a class="button event-button">Lire la suite</a>
+              </div>
+            </div>
+            <div class="testimony-card">
+              <img src="./images/testimony/testimony-7.png" alt="chat roux">
+              <div class="testomny-card-text">
+                <div>
+                  <h3>Bridget</h3>
+                  <p>
+                    Bridget est trés affectueuse, sociable et de plus je peux l'emmener partout avec moi surtout dans les
+                    transports. J'espère de tout cœur que d'autres petits cœurs aient sa chance.</p>
+                </div>
+                <a class="button event-button">Lire la suite</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="catNext"><img src="./images/icones/chevron-alternatif.svg" alt="Suivant"></button>
+      </div>
+      <a class="button ">Voir plus de témoignages</a>
+    </section>
+    <div class="footer-img-container">
+      <img class="footer-img" src="./images/chat-allonge.svg" alt="Mascotte de l'association">
+    </div>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-info">
+        <div class="footer-section text-left">
+          <h3>L'association</h3>
+          <p>À propos</p>
+          <p>Faire un don</p>
+          <p>Parrainage</p>
+          <p>Devenir famille d'accueil </p>
+        </div>
+        <div class="footer-section text-left">
+          <h3>Information</h3>
+          <p>Cookies</p>
+          <p>Mentions légales</p>
+          <p>Plan du site</p>
+          <p>Politique de confidentialité</p>
+        </div>
+        <div class="footer-section text-left">
+          <h3>Contact</h3>
+          <p>03 28 55 78 22</p>
+          <p>23 rue Eugène Motte</p>
+          <p>59512 Roubaix</p>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>S'inscrire à la newsletter</h3>
+        <form action="">
+          <div class="newsletter-bar">
+            <input class="newsletter-input" type="email" placeholder="email">
+            <div class="send-btn">
+              <img src="./images/icones/envoyer.svg" alt="icône envoyer" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer-section">
+      <div class="socials">
+        <img src="./images/icones/facebook.svg" alt="icône Facebook">
+        <img src="./images/icones/instagram.svg" alt="icône Instagram">
+      </div>
+      <p>©2025 Ecole du chat de Roubaix et environs</p>
+    </div>
+  </footer>
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>

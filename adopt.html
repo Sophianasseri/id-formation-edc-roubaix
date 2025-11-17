@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="adoption chat association, protection, animaux" />
+  <title>Ecole du chat Roubaix et environs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<header>
+    <a href="index.html">
+      <picture>
+        <source media="(min-width:1024px)" srcset="./images/logo/logo-texte.svg">
+        <img src="./images/logo/avatar.svg" alt="Logo de l'école du chat de Roubaix et environs">
+      </picture>
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a class="menu-link" href="adopt.html">Adopter un chat</a></li>
+        <li><a class="menu-link" href="advices.html">Conseils</a></li>
+        <li>
+          <a class="menu-link" href="howtoadopt.html">Comment adopter</a>
+        </li>
+        <li><a class="menu-link" href="events.html">Évènements</a></li>
+        <li><a class="menu-link" href="#">À propos</a></li>
+      </ul>
+    </nav>
+    <div class="header-btn">
+      <button class="account">
+        <img class="account-img" src="./images/icones/compte.svg" alt />
+      </button>
+      <button id="burger" class="burger">
+        <img src="./images/icones/menu-burger.svg" alt="menu de navigation" />
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="cat-adoption-container">
+      <div>
+        <h1><span class="rectangle-background">Découvrez</span> nos chats</h1>
+        <p>
+          Tous nos chats à l’adoption sont identifiés, stérilisés et suivis
+          par nos vétérinaires partenaires. Ils ont chacun une histoire, un
+          passé, et surtout un grand besoin d’amour. En adoptant auprès de
+          l’école du chat de Roubaix, vous leur offrez une nouvelle chance
+          celle de trouver enfin un
+          foyer pour la vie.
+        </p>
+      </div>
+      <div class="survey-results-container">
+        <h2> <span class="rectangle-background">Modifier</span> vos
+          réponses</h2>
+        <p>“Vous pouvez modifier vos réponses au questionnaire à tout
+          moment.”</p>
+        <div class="survey-results-btn">
+          <img src="./images/fleche.svg" alt="Flèche">
+          <a class="button">Editer mes réponses</a>
+        </div>
+      </div>
+    </section>
+    <section class="cat-search-container">
+      <div>
+        <div class="advice-note">
+          <img src="./images/chat-assis.svg" alt="Mascotte de l'association">
+          <p>“ N'oubliez pas que l’adoption est un acte responsable qui implique
+            un engagement financier et personnel”</p>
+        </div>
+        <div class="modal">
+          <div class="filters">
+            <button class="close-btn"> <img src="./images/icones/croix.svg" alt="fermer"></button>
+            <div class="filters-wrapper">
+              <h2>Filtres</h2>
+              <div class="filter-container">
+                <div class="filter-section">
+                  <h3>Age</h3>
+                  <div>
+                    <div class="checkbox-container">
+                      <label class="checkbox" for="kitten">
+                        <input type="checkbox" id="kitten" name="kitten" />
+                        <span class="checkbox-custom"></span>
+                        chaton ( moins de 1 an )
+                      </label>
+                    </div>
+                    <div class="checkbox-container">
+                      <label class="checkbox" for="adult">
+                        <input type="checkbox" id="adult" name="adult" />
+                        <span class="checkbox-custom"></span>
+                        adulte ( entre 1 an et 7 ans )
+                      </label>
+                    </div>
+                    <div class="checkbox-container">
+
+                      <label class="checkbox" for="senior">
+                        <input type="checkbox" id="senior" name="senior" />
+                        <span class="checkbox-custom"></span>
+                        sénior ( plus de 8 ans )</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter-section">
+                  <h3>Sexe</h3>
+                  <div>
+                    <div class="checkbox-container">
+                      <label class="checkbox" for="female">
+                        <input type="checkbox" id="female" name="female" />
+                        <span class="checkbox-custom"></span>
+                        Femelle
+                      </label>
+                    </div>
+                    <div class="checkbox-container">
+                      <label class="checkbox" for="male">
+                        <input type="checkbox" id="male" name="male" />
+                        <span class="checkbox-custom"></span>
+                        Mâle
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter-section">
+                  <h3>S'entend avec : </h3>
+                  <div>
+                    <div class="checkbox-container">
+                      <label class="checkbox" for="kids">
+                        <input type="checkbox" id="kids" name="kids" />
+                        <span class="checkbox-custom"></span>
+                        S'entend avec les enfants</label>
+                    </div>
+                    <div class="checkbox-container">
+
+                      <label class="checkbox" for="cats">
+                        <input type="checkbox" id="cats" name="cats" />
+                        <span class="checkbox-custom"></span>
+                        S'entend avec les chats
+                      </label>
+                    </div>
+                    <div class="checkbox-container">
+                      <label class="checkbox" for="dogs">
+                        <input type="checkbox" id="dogs" name="dogs" />
+                        <span class="checkbox-custom"></span>
+                        S'entend avec les chiens
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter-section">
+                  <h3>Santé</h3>
+                  <div>
+                    <div class="checkbox-container">
+                      <label class="checkbox" for="health">
+                        <input type="checkbox" id="health" name="health" />
+                        <span class="checkbox-custom"></span>
+                        Besoins spécifiques
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter-section">
+                  <h3>Autre</h3>
+                  <div>
+                    <div class="checkbox-container">
+                      <label class="checkbox" for="outdoor">
+                        <input type="checkbox" id="outdoor" name="outdoor" />
+                        <span class="checkbox-custom"></span>
+                        Vit uniquement à l'intérieur
+                      </label>
+                    </div>
+                    <div class="checkbox-container">
+                      <label class="checkbox" for="non-experimented">
+                        <input type="checkbox" id="non-experimented" name="non-experimented" />
+                        <span class="checkbox-custom"></span>
+                        Adapté aux primo-adoptants
+                      </label>
+                    </div>
+                    <div class="checkbox-container">
+                      <label class="checkbox" for="experimented">
+                        <input type="checkbox" id="experimented" name="experimented" />
+                        <span class="checkbox-custom"></span>
+                        Besoin d'un adoptant expérimenté
+
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <form action autocomplete="off">
+          <div class="search-filter-container">
+            <div class="search-bar">
+              <input id="cityInput" class="search-input" type="text" name="city" placeholder="Entrez une ville" />
+              <div class="search-container">
+                <button class="dropdown__toggle" type="button">
+                  5 km
+                  <img src="./images/icones/chevron.svg" alt="Choisir une distance" />
+                </button>
+                <ul class="dropdown__menu">
+                  <li class="option" role="option">5 km</li>
+                  <li class="option" role="option">10 km</li>
+                  <li class="option" role="option">15 km</li>
+                  <li class="option" role="option">20 km</li>
+                  <li class="option" role="option">25 km</li>
+                  <li class="option" role="option">30 km</li>
+                  <li class="option" role="option">35 km</li>
+                  <li class="option" role="option">40 km</li>
+                </ul>
+                <button class="search-btn" id="search-btn" type="submit">
+                  <img src="./images/icones/recherche.svg" alt="Rechercher un chat" />
+                </button>
+              </div>
+              <div id="suggestions" class="suggestions"></div>
+            </div>
+            <button type="button" class="filter-btn">
+              <img src="./images/icones/filtre.svg" alt="filtre" />
+              Filtrer
+            </button>
+          </div>
+        </form>
+        <p class="cat-number"> <span class="bold">210 chats </span>disponibles à l'adoption</p>
+        <div class="cats-results"></div>
+      </div>
+    </section>
+    <div class="footer-img-container">
+      <img class="footer-img" src="./images/chat-allonge.svg" alt="Mascotte de l'association">
+    </div>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-info">
+        <div class="footer-section text-left">
+          <h3>L'association</h3>
+          <p>À propos</p>
+          <p>Faire un don</p>
+          <p>Parrainage</p>
+          <p>Devenir famille d'accueil </p>
+        </div>
+        <div class="footer-section text-left">
+          <h3>Information</h3>
+          <p>Cookies</p>
+          <p>Mentions légales</p>
+          <p>Plan du site</p>
+          <p>Politique de confidentialité</p>
+        </div>
+        <div class="footer-section text-left">
+          <h3>Contact</h3>
+          <p>03 28 55 78 22</p>
+          <p>23 rue Eugène Motte</p>
+          <p>59512 Roubaix</p>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>S'inscrire à la newsletter</h3>
+        <form action="">
+          <div class="newsletter-bar">
+            <input class="newsletter-input" type="email" placeholder="email">
+            <div class="send-btn">
+              <img src="./images/icones/envoyer.svg" alt="icône envoyer" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer-section">
+      <div class="socials">
+        <img src="./images/icones/facebook.svg" alt="icône Facebook">
+        <img src="./images/icones/instagram.svg" alt="icône Instagram">
+      </div>
+      <p>©2025 Ecole du chat de Roubaix et environs</p>
+    </div>
+  </footer>
+  <script type="module" src="adopt.js"></script>
+</body>
+
+</html>

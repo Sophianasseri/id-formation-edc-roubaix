@@ -16,6 +16,7 @@ const surveyTitle = document.querySelector('.survey-title')
 
 
 
+
 const updateProgress = () => {
   const progressFill = document.querySelector(".progress-fill");
   const progressText = document.querySelector(".progress-text");

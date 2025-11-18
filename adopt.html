@@ -4,13 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="adoption chat association, protection, animaux" />
-  <title>Ecole du chat Roubaix et environs</title>
+  <meta name="description"
+    content="L'École du Chat de Roubaix stérilise, identifie et protège les chats errants, et propose des chats à l’adoption dans la métropole lilloise" />
+  <title>Adopter un chat - École du Chat de Roubaix</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-<header>
+  <header>
     <a href="index.html">
       <picture>
         <source media="(min-width:1024px)" srcset="./images/logo/logo-texte.svg">
@@ -190,7 +191,7 @@
         </div>
       </div>
       <div>
-        <form action autocomplete="off">
+        <form autocomplete="off">
           <div class="search-filter-container">
             <div class="search-bar">
               <input id="cityInput" class="search-input" type="text" name="city" placeholder="Entrez une ville" />
@@ -199,7 +200,7 @@
                   5 km
                   <img src="./images/icones/chevron.svg" alt="Choisir une distance" />
                 </button>
-                <ul class="dropdown__menu">
+                <ul role="listbox" class="dropdown__menu">
                   <li class="option" role="option">5 km</li>
                   <li class="option" role="option">10 km</li>
                   <li class="option" role="option">15 km</li>
@@ -234,28 +235,34 @@
       <div class="footer-info">
         <div class="footer-section text-left">
           <h3>L'association</h3>
-          <p>À propos</p>
-          <p>Faire un don</p>
-          <p>Parrainage</p>
-          <p>Devenir famille d'accueil </p>
+          <ul>
+            <li><a>À propos</a></li>
+            <li><a>Faire un don</a></li>
+            <li><a>Parrainage</a></li>
+            <li><a>Devenir famille d'accueil</a></li>
+          </ul>
         </div>
         <div class="footer-section text-left">
           <h3>Information</h3>
-          <p>Cookies</p>
-          <p>Mentions légales</p>
-          <p>Plan du site</p>
-          <p>Politique de confidentialité</p>
+          <ul>
+            <li><a>Cookies</a></li>
+            <li><a>Mentions légales</a></li>
+            <li><a>Plan du site</a></li>
+            <li><a>Politique de confidentialité</a></li>
+          </ul>
         </div>
         <div class="footer-section text-left">
           <h3>Contact</h3>
-          <p>03 28 55 78 22</p>
-          <p>23 rue Eugène Motte</p>
-          <p>59512 Roubaix</p>
+          <ul>
+            <li><a>03 28 55 78 22</a></li>
+            <li><a>23 rue Eugène Motte</a></li>
+            <li><a>59512 Roubaix</a></li>
+          </ul>
         </div>
       </div>
       <div class="footer-section">
         <h3>S'inscrire à la newsletter</h3>
-        <form action="">
+        <form>
           <div class="newsletter-bar">
             <input class="newsletter-input" type="email" placeholder="email">
             <div class="send-btn">

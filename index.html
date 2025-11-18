@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="adoption chat association, protection, animaux" />
-  <title>Ecole du chat Roubaix et environs</title>
+  <meta name="description"
+    content="L'École du Chat de Roubaix stérilise, identifie et protège les chats errants, et propose des chats à l’adoption dans la métropole lilloise" />
+  <title>Adoption de Chats dans la métropole lilloise – École du Chat de Roubaix</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -48,7 +49,7 @@
           L’école du chat de Roubaix propose plus de 200 chats prêts à être adoptés.
           Venez les rencontrer et trouver votre futur compagnon à quatre pattes.
         </p>
-        <form action autocomplete="off">
+        <form autocomplete="off">
           <div class="search-filter-container">
             <div class="search-bar">
               <input id="cityInput" class="search-input" type="text" name="city" placeholder="Entrez une ville" />
@@ -57,7 +58,7 @@
                   5 km
                   <img src="./images/icones/chevron.svg" alt="Choisir une distance" />
                 </button>
-                <ul class="dropdown__menu">
+                <ul role="listbox" class="dropdown__menu">
                   <li class="option" role="option">5 km</li>
                   <li class="option" role="option">10 km</li>
                   <li class="option" role="option">15 km</li>
@@ -67,8 +68,8 @@
                   <li class="option" role="option">35 km</li>
                   <li class="option" role="option">40 km</li>
                 </ul>
-                <a href="./adopt.html" class="search-btn" id="search-btn" type="submit">
-                  <img src="./images/icones/recherche.svg" alt="Rechercher un chat"/>
+                <a href="./adopt.html" class="search-btn" id="search-btn">
+                  <img src="./images/icones/recherche.svg" alt="Rechercher un chat" />
                 </a>
               </div>
               <div id="suggestions" class="suggestions"></div>
@@ -108,7 +109,7 @@
       </div>
       <a href="./adopt.html" class="button">Trouver mon chat</a>
     </section>
-     <section class="researched-cats">
+    <section class="researched-cats">
       <h2>Vos derniers chats <span class="rectangle-background">recherchés</span></h2>
       <div class="researched-cats-container">
         <button class="catPrev"><img src="./images/icones/chevron-alternatif.svg" alt="Précédent"></button>
@@ -171,7 +172,7 @@
           </div>
           <div class="price-container">
             <div class="price-shape-container">
-              <img class="shape" src="./images/shape.svg">
+              <img class="shape" src="./images/shape.svg" alt="">
               <p class="price bold"> 140€</p>
             </div>
           </div>
@@ -185,7 +186,7 @@
           </div>
           <div class="price-container">
             <div class="price-shape-container">
-              <img class="shape" src="./images/shape.svg">
+              <img class="shape" src="./images/shape.svg" alt="">
               <p class="price bold"> 110€</p>
             </div>
           </div>
@@ -197,7 +198,7 @@
           </div>
           <div class="price-container">
             <div class="price-shape-container">
-              <img class="shape" src="./images/shape.svg">
+              <img class="shape" src="./images/shape.svg" alt="">
               <p class="price bold"> 30€</p>
             </div>
             <p class="bold">+ don libre</p>
@@ -210,11 +211,11 @@
           </div>
           <div class="price-container">
             <div class="price-shape-container">
-              <img class="shape" src="./images/shape.svg">
+              <img class="shape" src="./images/shape.svg" alt="">
               <p class="price bold"> 30€</p>
             </div>
             <p class="bold">+ don libre</p>
-          </div </div>
+          </div>
         </div>
       </div>
     </section>
@@ -320,7 +321,8 @@
                 <div>
                   <h3>Bridget</h3>
                   <p>
-                    Bridget est trés affectueuse, sociable et de plus je peux l'emmener partout avec moi surtout dans les
+                    Bridget est trés affectueuse, sociable et de plus je peux l'emmener partout avec moi surtout dans
+                    les
                     transports. J'espère de tout cœur que d'autres petits cœurs aient sa chance.</p>
                 </div>
                 <a class="button event-button">Lire la suite</a>
@@ -341,28 +343,34 @@
       <div class="footer-info">
         <div class="footer-section text-left">
           <h3>L'association</h3>
-          <p>À propos</p>
-          <p>Faire un don</p>
-          <p>Parrainage</p>
-          <p>Devenir famille d'accueil </p>
+          <ul>
+            <li><a>À propos</a></li>
+            <li><a>Faire un don</a></li>
+            <li><a>Parrainage</a></li>
+            <li><a>Devenir famille d'accueil</a></li>
+          </ul>
         </div>
         <div class="footer-section text-left">
           <h3>Information</h3>
-          <p>Cookies</p>
-          <p>Mentions légales</p>
-          <p>Plan du site</p>
-          <p>Politique de confidentialité</p>
+          <ul>
+            <li><a>Cookies</a></li>
+            <li><a>Mentions légales</a></li>
+            <li><a>Plan du site</a></li>
+            <li><a>Politique de confidentialité</a></li>
+          </ul>
         </div>
         <div class="footer-section text-left">
           <h3>Contact</h3>
-          <p>03 28 55 78 22</p>
-          <p>23 rue Eugène Motte</p>
-          <p>59512 Roubaix</p>
+          <ul>
+            <li><a>03 28 55 78 22</a></li>
+            <li><a>23 rue Eugène Motte</a></li>
+            <li><a>59512 Roubaix</a></li>
+          </ul>
         </div>
       </div>
       <div class="footer-section">
         <h3>S'inscrire à la newsletter</h3>
-        <form action="">
+        <form>
           <div class="newsletter-bar">
             <input class="newsletter-input" type="email" placeholder="email">
             <div class="send-btn">

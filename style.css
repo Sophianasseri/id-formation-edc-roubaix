@@ -159,7 +159,7 @@ picture img {
   right: 0;
   gap: 32px;
   padding: 32px 48px;
-  top: 81px;
+  top: 74px;
   border-top: var(--border-color) 0.5px solid;
   z-index: 10;
 }

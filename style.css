@@ -335,6 +335,10 @@ picture img {
   padding: 10px 8px;
 }
 
+.suggestion-item:hover {
+  background: var(--tertiairy-color)
+}
+
 .dropdown__toggle {
   display: flex;
   align-items: center;
@@ -373,6 +377,11 @@ picture img {
   padding: 8px;
   color: var(--main-color);
   font-family: "Nunito", sans-serif;
+  cursor: pointer;
+}
+
+.option:hover {
+  background: var(--tertiairy-color);
 }
 
 .search-btn {
@@ -1304,6 +1313,7 @@ footer h3 {
 .newsletter-input {
   border: none;
   color: var(--main-color);
+  background: var(--secondary-background);
   font-size: 16px;
   font-family: "Nunito", sans-serif;
   outline: none;

@@ -18,6 +18,7 @@ const indicatorsContainer = document.querySelector('.carousel-indicators')
 const relatedCatsContainer = document.querySelector('.card-container')
 
 
+
 burgerMenu();
 
 const carousel = async () => {
@@ -85,7 +86,10 @@ const carousel = async () => {
       }
       updateCarousel()
     }
-  })    
+  })   
+
+  addFav()
+
 }
 
 
@@ -313,7 +317,7 @@ const getFamilyCats = async () => {
     relatedCatsContainer. innerHTML = relatedCats.map(
       (cat) => `
        <a href="./catPage.html?id=${cat.id}" class="home-card">
-            <div id="fav-container" class="fav-container">
+            <div class="fav-container">
               <img class="fav" src="./images/icones/favoris.svg" alt="favoris" />
               <img class="fav-full" src="./images/icones/favoris-ajout.svg" alt="favoris" />
             </div>

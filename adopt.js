@@ -12,7 +12,6 @@ const filterBtn  =document.querySelector('.filter-btn');
 const modal = document.querySelector('.modal');
 const closeBtn = document.querySelector('.close-btn')
 
-addFav()
 
 
 let cities = [];
@@ -101,7 +100,7 @@ const getCats = async () => {
   catsContainer.innerHTML = cats
     .map(cat => `
       <a class="cat-card" href="./catPage.html?id=${cat.id}">
-       <div id="fav-container"  class="fav-container">
+       <div class="fav-container">
               <img class="fav" src="./images/icones/favoris.svg" alt="favoris"/>
               <img class="fav-full" src="./images/icones/favoris-ajout.svg" alt="favoris"/>
         </div>
